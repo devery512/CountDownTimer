@@ -1,0 +1,37 @@
+.space{
+  background: url("https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.unit{
+  margin: 10% 1%;
+}
+p{
+  color: white;
+  font-size: 16px;
+}
+
+body{
+			animation: anim 10s infinite;
+		}
+
+	@keyframes anim {
+		0%{
+			background: #2E5266;
+		}
+		20%{
+			backgroudn: #6E8898;
+		}
+		40%{
+			background: #9FB1BC;
+		}
+		60%{
+			background: #D3D0CB;
+		}
+		80%{
+			background: #E2C044;
+		}
+		100%{
+			background: #0CA98A;
+		}
